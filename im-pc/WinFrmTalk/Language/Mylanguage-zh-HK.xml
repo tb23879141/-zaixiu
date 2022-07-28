@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<property>
+    <!--控件-->
+    <string name="btn_ok">確定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_send">發送(S)</string>
+    <string name="btn_submit">提交</string>
+    <string name="btn_create_group">新建群組</string>
+    <string name="btn_create_label">創建標籤</string>
+    <string name="btn_create_company">創建公司</string>
+    <string name="btn_set">設置</string>
+    <string name="btn_modify_pwd">修改密碼</string>
+    <string name="btn_check">查找</string>
+    <string name="search">搜索</string>
+    <string name="btn_upload_files">上傳文件</string>
+    <string name="btn_announce">發布</string>
+    <string name="btn_confirm_invite">確認邀請</string>
+    <string name="btn_clear_chat_history">清空聊天記錄</string>
+    <string name="btn_delete_and_exit">刪除並退出</string>
+    <string name="btn_dissolve_group">解散該群</string>
+    <string name="btn_unfollowing">不再關注</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_send_position">發送位置</string>
+    <string name="btn_reset">重置</string>
+    <string name="check_all">全選</string>
+    <string name="check_none">取消全選</string>
+    <string name="btn_blacklist">加入黑名單</string>
+    <string name="btn_delete_fd">刪除好友</string>
+    <string name="btn_end_chat">結束對話</string>
+    <string name="btn_change_pwd">修改密碼</string>
+    <string name="btn_check_update">檢查更新</string>
+
+    <!--登錄-->
+    <string name="user_account">賬號</string>
+    <string name="user_pwd">密碼</string>
+    <string name="remember_pwd">記住密碼</string>
+    <string name="login">登錄</string>
+    <string name="forget_pwd">忘記密碼</string>
+    <string name="user_register">賬號註冊</string>
+    <string name="downloading_data">正在下載數據</string>
+
+    <!--註冊-->
+    <string name="register">註冊</string>
+    <string name="password">密碼</string>
+    <string name="image_code">圖形碼</string>
+    <string name="verification_code">驗證碼</string>
+    <string name="send">發送</string>
+    <string name="no_code">收不到驗證碼</string>
+    <string name="next_procedure">下一步</string>
+
+    <!--消息-->
+    <string name="send_msg">發消息</string>
+    <string name="send_card">發送名片</string>
+    <string name="add_offical_account">添加公眾號</string>
+    <string name="add_friend">加好友</string>
+    <string name="add_group">加群</string>
+    <string name="blocked_me">拉黑了我</string>
+    <string name="cancel_blocked">取消拉黑</string>
+    <string name="wait_validation">等待驗證</string>
+    <string name="add">添加</string>
+    <string name="chat">發消息</string>
+    <string name="verifying">等待驗證</string>
+    <string name="sender">發送者</string>
+    <string name="content">內容</string>
+    <string name="time">時間</string>
+    <string name="type">類型</string>
+    <string name="label">標籤</string>
+    <string name="one_forward">逐條轉發</string>
+    <string name="merge_forward">合併轉發</string>
+    
+    <!--消息類型-->
+    <string name="Image">圖片</string>
+    <string name="Voice">語音</string>
+    <string name="Location">位置</string>
+    <string name="Gif">動畫</string>
+    <string name="Video">視頻</string>
+    <string name="Audio">視頻</string>
+    <string name="Card">名片</string>
+    <string name="File">文件</string>
+    <string name="RedPacket">紅包</string>
+    <string name="TRANSFER">轉賬</string>
+    <string name="ImageTextSingle">單條圖文</string>
+    <string name="ImageTextMany">多條圖文</string>
+    <string name="Link">鏈接</string>
+    <string name="SDKLink">鏈接</string>
+    <string name="PokeMessage">戳一戳</string>
+    <string name="History">聊天記錄</string>
+    <string name="AudioChatEnd">語音通話結束</string>
+    <string name="VideoChatEnd">視頻通話結束</string>
+    <string name="VideoChatCancel">視頻通話拒絕</string>
+    <string name="AudioChatCancel">語音通話拒絕</string>
+    <string name="RedBack">紅包已過期,餘額已退回零錢</string>
+    <string name="TYPE_SECURE_LOST_KEY">請求群組通訊密鑰</string>
+    <string name="TYPE_SECURE_SEND_KEY">發送群組通訊密鑰</string>
+
+    <!--個人信息-->
+    <string name="nickname">暱稱</string>
+    <string name="remark_name">備註</string>
+    <string name="sex">性別</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="birthday">日期</string>
+    <string name="live_place">居住地</string>
+    <string name="address">所在地</string>
+    <string name="account_IM">通訊號</string>
+    <string name="QR_code">二維碼</string>
+    <string name="card">名片</string>
+    <string name="phone_number">手機號碼</string>
+    <string name="other">其他</string>
+
+    <!--群信息-->
+    <string name="group">群組</string>
+    <string name="create_group">創建群組</string>
+    <string name="group_name">群名稱</string>
+    <string name="group_details">群詳情</string>
+    <string name="group_notice">群公告</string>
+    <string name="group_QR_code">群二維碼</string>
+    <string name="group_file">群文件</string>
+    <string name="group_descrip">群描述</string>
+    <string name="group_member">群成員</string>
+    <string name="public_group">公開群</string>
+    <string name="private_group">私密群組</string>
+    <string name="private_group_tip">*私密群組不支持主動進群,且消息傳輸方式為端到端加密的傳輸方式</string>
+    <string name="member">成員</string>
+    <string name="group_card">群名片</string>
+    <string name="leader">群主</string>
+    <string name="administrator">管理員</string>
+    <string name="ordinary">普通成員</string>
+    <string name="invisible">隱身人</string>
+    <string name="delete_member">刪除群成員</string>
+
+  <!--文件操作與狀態-->
+    <string name="have_downloaded">已下載</string>
+    <string name="did_not_downloaded">未下載</string>
+    <string name="downloading">下載中</string>
+    <string name="upload_complete">上傳成功</string>
+    <string name="upload_failed">上傳失敗</string>
+    <string name="uploading">上傳中</string>
+    <string name="download_complete">下載成功</string>
+    <string name="download_failed">下載失敗</string>
+    <string name="open">打開</string>
+    <string name="download">下載</string>
+    <string name="copy">複製</string>
+    <string name="forward">轉發</string>
+    <string name="edit">編輯</string>
+    <string name="collect">收藏</string>
+    <string name="delete">刪除</string>
+    <string name="save_as">另存為</string>
+    <string name="choose_file">請選擇文件</string>
+    <string name="choose_image">請選擇圖片</string>
+    <string name="choose_file_path">請選擇文件路徑</string>
+    <string name="delete_file_complete">文件刪除成功</string>
+    <string name="image_file">圖片文件</string>
+    
+    <!--時間-->
+    <string name="just_now">剛剛</string>
+    <string name="one_month_ago">1個月前</string>
+    <string name="two_weeks_ago">2週前</string>
+    <string name="one_week_ago">1週前</string>
+    <string name="one_sencond_ago">1秒前</string>
+    <string name="days_ago">天前</string>
+    <string name="hours_ago">小時前</string>
+    <string name="minutes_ago">分鐘前</string>
+    <string name="seconds_ago">秒前</string>
+    <string name="yesterday">昨天</string>
+    <string name="Monday">星期一</string>
+    <string name="Tuesday">星期二</string>
+    <string name="Wednesday">星期三</string>
+    <string name="Thursday">星期四</string>
+    <string name="Friday">星期五</string>
+    <string name="Saturday">星期六</string>
+    <string name="Sunday">星期天</string>
+    <string name="one_hour">1小時</string>
+    <string name="one_day">1天</string>
+    <string name="one_week">1週</string>
+    <string name="one_month">1月</string>
+    <string name="one_season">1季</string>
+    <string name="one_year">1年</string>
+    <string name="permanent">永久</string>
+    
+    <!--窗體基礎常用語-->
+    <string name="loading">加載中</string>
+    <string name="detail">詳情</string>
+    <string name="app_name">視酷即時通訊</string>
+    <string name="people">人</string>
+    <string name="number_tiao">%s 條</string>
+    <string name="search_result">搜索結果</string>
+    <string name="from">來自</string>
+    <string name="I">我</string>
+    <string name="sure_to_clear">確認清除聊天記錄</string>
+    <string name="tips">提示</string>
+    
+    <!--AddTips-->
+    <string name="issue_group_notice">發布群公告</string>
+
+    <!--FrmAddstate-->
+    <string name="allow_to_add_my_way">允許添加我的方式</string>
+    <string name="by_QR_code">二維碼</string>
+    <string name="by_card">名片</string>
+    <string name="by_group">群組</string>
+    <string name="by_phone_number">手機號</string>
+    <string name="by_nick_name">暱稱</string>
+    <string name="by_other">其他</string>
+
+    <!--FrmBatchSend-->
+    <string name="batch_send_msg">群發消息</string>
+    <string name="batch_title">你將給此列表中 %s 位好友群發消息</string>
+
+    <!--FrmBrowser-->
+    <string name="browser_copy_url">複製鏈接地址</string>
+    <string name="browser_refresh">刷新</string>
+    <string name="browser_open_by_default">用默認瀏覽器打開</string>
+    <string name="browser_forward">轉發</string>
+    <string name="browser_collect">收藏</string>
+
+    <!--FrmEditImage-->
+    <string name="image_withdraw">撤銷</string>
+    <string name="image_tailor">裁剪</string>
+    <string name="image_text">文字</string>
+    <string name="image_mosaic">馬賽克</string>
+    <string name="image_pen">畫筆</string>
+    <string name="image_ok">完成</string>
+    <string name="image_cancel">取消</string>
+    <string name="image_save">保存</string>
+    <string name="image_ellipse">橢圓</string>
+    <string name="image_magnify">放大</string>
+    <string name="image_shrink">縮小</string>
+    <string name="image_rectangle">方框</string>
+    <string name="image_max">最大化</string>
+    <string name="image_last">上一張</string>
+    <string name="image_next">下一張</string>
+    <string name="view_image">查看圖片</string>
+
+  <!--Expression-->
+    <string name="exps_default">表情</string>
+    <string name="exps_gif">動畫表情</string>
+    <string name="exps_custom">自定義表情</string>
+
+    <!--FrmForgetPwd-->
+    <string name="verify_pwd">確認密碼</string>
+    
+    <!--FrmFriendQuery-->
+    <string name="query_friend">查找好友</string>
+    
+    <!--FrmFriendSelect-->
+    <string name="frmFriendSelect_title">選擇好友</string>
+    <string name="frmFriendSelect_tips">請勾選需要添加的聯繫人</string>
+
+    <!--FrmGroupFileList-->
+    <string name="frmGroupFileList_title">群文件</string>
+    
+    <!--FrmGroupQuery-->
+    <string name="frmGroupQuery_title">查找群組</string>
+
+    <!--FrmHistoryChat-->
+    <string name="frmHistoryChat_title">歷史記錄</string>
+    <string name="search_history_msgs">搜索聊天記錄</string>
+    <string name="history_all">全部</string>
+    <string name="history_file">文件</string>
+    <string name="history_image">圖片</string>
+    <string name="history_video">視頻</string>
+    <string name="history_reply">回复 %s</string>
+    
+    <!--FrmInviteToGroup-->
+    <string name="frmInviteToGroup_title">邀請詳情</string>
+    <string name="invite_reason">邀請原因</string>
+    <string name="apply_to_join_group">申請加入群聊</string>
+    <string name="invite_fd_join_group">想邀請%s位朋友進入群聊</string>
+    <string name="wait_invite_result">群聊邀請已發送給群主,請等待群主確認</string>
+
+    <!--FrmMagent-->
+    <string name="frmMagent_title">群管理</string>
+    <string name="all_silence">全體禁言</string>
+    <string name="show_read_person">顯示已讀人數</string>
+    <string name="group_invite_verification">群組邀請確認</string>
+    <string name="group_reduce">群組減員通知</string>
+    <string name="can_private_chat">允許普通成員私聊</string>
+    <string name="can_invite_fd">允許普通成員邀請好友</string>
+    <string name="can_show_member">允許顯示群成員</string>
+    <string name="can_member_upload">允許普通成員上傳</string>
+    <string name="can_launch_meeting">允許普通成員發起會議</string>
+    <string name="can_launch_courseware">允許普通成員發起課件</string>
+    <string name="msg_transmit_way">消息傳輸方式</string>
+    <string name="plaintext_transmit">明文傳輸</string>
+    <string name="3DES_encrypt_transmit">3DES加密傳輸</string>
+    <string name="AES_encrypt_transmit">AES加密傳輸</string>
+    <string name="port_to_port">端對端加密</string>
+    <string name="a_key_to_copy">一鍵複製群組</string>
+    <string name="group_member_table">群成員列表</string>
+    <string name="view_details">查看詳情</string>
+    <string name="transfer_group_owner">轉讓群主</string>
+    <string name="appoint_admin">指定管理員</string>
+    <string name="revoke_admin">取消管理員</string>
+    <string name="silence">禁言</string>
+    <string name="do_not_silence">不禁言</string>
+    <string name="silence_thirty_minutes">禁言30分鐘</string>
+    <string name="silence_one_hour">禁言1小時</string>
+    <string name="silence_one_day">禁言1天</string>
+    <string name="silence_three_days">禁言3天</string>
+    <string name="from_the_group_remove">從本群移除</string>
+    <string name="appoint_invisible_man">指定隱身人</string>
+    <string name="revoke_invisible_man">取消指定隱身人</string>
+    <string name="nickname_in_group">群內備註</string>
+
+    <!--FrmMassMsg-->
+    <string name="frmMassMsg_title">群發消息</string>
+    <string name="frmMassMsg_tips">你將發消息給%s位好友</string>
+
+    <!--FrmMoreMember-->
+    <string name="frmMoreMember_title">群成員</string>
+    
+    <!--FrmMyColleagueEidt-->
+    <string name="frmMyColleagueEidt_title">編輯</string>
+    <string name="frmMyColleagueEidt_name">名稱</string>
+    <string name="frmMyColleagueEidt_tips">未修改過</string>
+    <string name="title_record_courseware">課件錄製</string>
+    <string name="title_modify_courseware">修改課件</string>
+    <string name="name_courseware_name">課件名稱</string>
+    <string name="title_reply">回話</string>
+    <string name="name_reply_content">回話內容</string>
+    <string name="title_create_label">創建標籤</string>
+    <string name="title_modify_label">修改標籤</string>
+    <string name="name_label_name">標籤名稱</string>
+    <string name="title_create_company">創建公司</string>
+    <string name="title_modify_company_name">修改公司名稱</string>
+    <string name="name_company_name">公司名稱</string>
+    <string name="title_create_department">創建部門</string>
+    <string name="title_modify_department">修改部門名稱</string>
+    <string name="name_department_name">部門名稱</string>
+    <string name="title_add_sub-department">添加子部門</string>
+    <string name="name_sub-department_name">部門名稱</string>
+    <string name="title_modify_post">修改職位</string>
+    <string name="name_post_name">職位名稱</string>
+    <string name="title_modify_remark">修改備註</string>
+    <string name="name_remark_name">備註名</string>
+    
+    <!--UserOffialAccountSet-->
+    <string name="msg_overdue_time">消息過期時間</string>
+    <string name="both-way_clear_chat_history">雙向清理聊天記錄</string>
+    <string name="top_chat">置頂聊天</string>
+    <string name="no_disturbing">消息免打擾</string>
+    <string name="read_delete">閱後即焚</string>
+    
+    <!--FrmOfficialAccount-->
+    <string name="frmOfficialAccount_title">公眾號查詢</string>
+
+  <!--FrmProgressBar-->
+    <string name="frmProgressBar_title">群發消息</string>
+    <string name="frmProgressBar_error">以下好友群發消息失敗，原因</string>
+    <string name="frmProgressBar_error1">好友 %s 的數據異常，</string>
+    <string name="frmProgressBar_error2">缺少 %s 的群密鑰，</string>
+    <string name="frmProgressBar_error3">您在群 %s 的身份為隱身人，</string>
+    <string name="frmProgressBar_error4">您在群 %s 已被禁言，</string>
+    <string name="frmProgressBar_progress">正在給 %s 發送消息</string>
+    <string name="frmProgressBar_tips">消息群發中，請稍等。 。 </string>
+    <string name="frmProgressBar_sending">發送中 </string>
+    
+    <!--FrmReadedList-->
+    <string name="frmReadedList_title">已讀列表</string>
+    <string name="read_time">閱讀時間</string>
+
+    <!--FrmReplay-->
+    <string name="frmReplay_title">常用語</string>
+
+    <!--FrmROOMVerify-->
+    <string name="frmROOMVerify_title">群組驗證</string>
+    <string name="frmROOMVerify_tips">群主已開啟‘群組邀請確認’，邀請朋友進群可以向群主描述原因</string>
+
+    <!--FrmSchedule-->
+    <string name="clear_all_record">清除聊天記錄</string>
+    <string name="clearing_record">正在清除 %s 的聊天記錄</string>
+    <string name="clearing">清除中</string>
+    <string name="export_record">導出聊天記錄</string>
+    <string name="exporting_record">正在導出第 %s 條聊天記錄</string>
+    <string name="exporting">導出中</string>
+    <string name="forward_msg">轉發消息</string>
+    <string name="forwarding_msg">正在給 %s 發送消息</string>
+    <string name="forwarding">轉發中，請稍等。 。 </string>
+    <string name="sending_msg">發送中 </string>
+    
+    <!--FrmSedLocation-->
+    <string name="frmSedLocation_title">地圖</string>
+    <string name="current_position">當前位置</string>
+    
+    <!--FrmServerSwit-->
+    <string name="frmServerSwit_title">切換服務器</string>
+    <string name="server_address">服務器地址</string>
+    
+    <!--FrmSortSelect-->
+    <string name="frmSortSelect_title">好友選擇器</string>
+    <string name="frmSortSelect_tips">請勾選需要添加的聯繫人</string>
+    <string name="recent_news">最近消息</string>
+    <string name="choose_fd">選擇好友</string>
+    <string name="fd_label">好友標籤</string>
+    <string name="my_colleague">我的同事</string>
+    
+    <!--USEGroupSet-->
+    <string name="reset_key">重置群組通信密鑰</string>
+    <string name="none_notice">暫無公告</string>
+    <string name="show_more_member">顯示更多群成員</string>
+
+    <!--USESingleSet-->
+    <string name="add_remarks">點擊添加備註</string>
+
+    <!--FrmTakePhoto-->
+    <string name="frmTakePhoto_title">拍照</string>
+
+    <!--FrmTakePhoto-->
+    <string name="frmTakeVideo_title">錄像</string>
+
+    <!--RequestChatkeyPanel-->
+    <string name="request_group_key">請求群組密鑰</string>
+
+    <!--UnReadNumPanel-->
+    <string name="num_news">條新消息</string>
+    
+    <!--ShowMsgPanel-->
+    <string name="tip_send_position">發送位置</string>
+    <string name="tip_screen">截圖（Alt + Z）</string>
+    <string name="tip_send_file">發送文件</string>
+    <string name="tip_record">錄音</string>
+    <string name="tip_photograph">拍照</string>
+    <string name="tip_video">錄像</string>
+    <string name="tip_audio_chat">語音聊天</string>
+    <string name="tip_video_chat">視頻聊天</string>
+    
+    <!--UserSoundRecording-->
+    <string name="recording">正在錄音...</string>
+    
+    <!--UseGroupInfo-->
+    <string name="view_member">查看群成員詳情</string>
+    <string name="group_disbaned">該群已解散</string>
+
+    <!--UserCollection-->
+    <string name="all_collection">          全部收藏</string>
+    <string name="text_collection">          文本</string>
+    <string name="image_collection">          圖片</string>
+    <string name="video_collection">          視頻</string>
+    <string name="my_courseware">          我的課件</string>
+    <string name="edit_courseware_name">修改名稱</string>
+    <string name="send_courseware">發送課件</string>
+    <string name="delete_courseware">刪除課件</string>
+
+  <!--USERemindMe-->
+    <string name="at_me">有人@我</string>
+    <string name="at_everyone">@全體成員</string>
+
+    <!--UserLabel-->
+    <string name="userLabel_title">好友標籤</string>
+    <string name="label_add_member">添加成員</string>
+    <string name="label_edit_name">修改名稱</string>
+    <string name="label_delete">刪除標籤</string>
+    <string name="label_batch_delete">批量刪除</string>
+
+    <!--UserOfficialAccount-->
+    <string name="userOfficialAccount_title">公眾號</string>
+    
+    <!--USEUserVerifyPage-->
+    <string name="waitting_validation">等待驗證中...</string>
+    <string name="await_validation">等待驗證</string>
+    <string name="passed_validation">我已通該好友的驗證</string>
+    <string name="added">已添加</string>
+    <string name="reply_success">回話給 %s 成功</string>
+    <string name="validated">通過驗證</string>
+    <string name="replyed">已回話</string>
+    <string name="unfollow_officical_account">已取消關注公眾號</string>
+    <string name="deleted_fd">已刪除好友</string>
+    <string name="deleted">已刪除</string>
+    <string name="blacklisted_fd">已將該好友拉黑</string>
+    <string name="blacklisted">已拉黑</string>
+    <string name="followed_official_account">已關注該公眾號</string>
+    <string name="followed">已關注</string>
+    <string name="added_fd">已添加該好友</string>
+    <string name="add_me_through_phone">通過手機聯繫人添加我為好友</string>
+    <string name="removed_blacklist">已將該好友移出黑名單</string>
+    <string name="fd_passed_validation">該好友已通過驗證</string>
+    <string name="deleted_me">該好友已刪除了我</string>
+    <string name="be_deleted">被刪除</string>
+    <string name="be_blacklisted">被拉黑</string>
+    <string name="fd_blacklisted_me">該好友拉黑了我</string>
+    <string name="request_add_me">請求添加我為好友</string>
+    <string name="fd_removed_blacklist">該好友已將我移出了黑名單</string>
+
+    <!--BlockListPage-->
+    <string name="blockListPage_title">黑名單</string>
+
+    <!--UserMyColleague-->
+    <string name="userMyColleague_title">我的同事</string>
+    <string name="selected">已選擇</string>
+    <string name="add_department">添加部門</string>
+    <string name="modify_company_name">修改公司名</string>
+    <string name="quit_company">退出公司</string>
+    <string name="destory_company">刪除公司</string>
+    <string name="creare_company_group">創建公司群</string>
+    <string name="addd_subdivisions">添加子部門</string>
+    <string name="add_member">添加成員</string>
+    <string name="modify_department_name">修改部門名</string>
+    <string name="delete_department">刪除部門</string>
+    <string name="create_department_group">創建部門群</string>
+    <string name="create_department_group_chat">創建公司群聊</string>
+    <string name="replace_department">更換部門</string>
+    <string name="modify_post">修改職位</string>
+    <string name="delete_staff">刪除員工</string>
+    
+    <!--FrmSet-->
+    <string name="frmSet_title">設置</string>
+    <string name="account_set">賬號設置</string>
+    <string name="general_set">通用設置</string>
+    <string name="privacy_set">隱私設置</string>
+    <string name="change_pwd">修改密碼</string>
+    <string name="about_us">關於我們</string>
+    <string name="edit_info">編輯資料</string>
+    <string name="logout">退出登錄</string>
+    <string name="export_fd_history_xls">導出全部好友聊天記錄xls</string>
+    <string name="export_gp_history_xls">導出全部群組聊天記錄xls</string>
+    <string name="export_fd_history_txt">導出全部好友聊天記錄txt</string>
+    <string name="export_gp_history_txt">導出全部群組聊天記錄txt</string>
+    <string name="mass_msg">群發消息</string>
+    <string name="clear_cache">清除緩存</string>
+    <string name="clear_history">清除聊天記錄</string>
+    <string name="fd_validation">好友驗證</string>Friends validation
+    <string name="let_know_typing">讓對方知道我正在輸入</string>
+    <string name="can_devices_login">支持多設備登錄</string>
+    <string name="can_search_me_by_phone">允許通過手機號搜索我</string>
+    <string name="can_search_me_by_name">允許通過暱稱搜索我</string>
+    <string name="roaming_time">消息漫遊時長</string>
+    <string name="service_pattern">客服模式</string>
+    <string name="new_msg_popup">新消息彈窗</string>
+    <string name="show_msg_status">顯示消息閱讀狀態</string>
+    <string name="old_pwd">舊密碼</string>
+    <string name="new_pwd">新密碼</string>
+    <string name="out-sync">不同步</string>
+    
+</property>

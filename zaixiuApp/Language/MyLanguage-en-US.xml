@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<property>
+  <!--Control-->
+    <string name = "btn_ok">OK</string>
+    <string name = "btn_cancel">Cancel</string>
+    <string name = "btn_send">Send (S)</string>
+    <string name = "btn_submit">Submit</string>
+    <string name = "btn_create_group">New group</string>
+    <string name = "btn_create_label">Create Label</string>
+    <string name = "btn_create_company">Create company</string>
+    <string name = "btn_set">Settings</string>
+    <string name = "btn_modify_pwd">Modify pwd</string>
+    <string name = "btn_check">Find</string>
+    <string name = "search">Search</string>
+    <string name = "btn_upload_files">Upload files</string>
+    <string name = "btn_announce">Announce</string>
+    <string name = "btn_confirm_invite">Confirm invite</string>
+    <string name = "btn_clear_chat_history">Clear history</string>
+    <string name = "btn_delete_and_exit">Delete and exit</string>
+    <string name = "btn_dissolve_group">Dissolve group</string>
+    <string name = "btn_unfollowing">Unfollowing</string>
+    <string name = "btn_add">Add</string>
+    <string name = "btn_send_position">Send</string>
+    <string name = "btn_reset">Reset</string>
+    <string name = "check_all">Check all</string>
+    <string name = "check_none">Check none</string>
+    <string name = "btn_blacklist">Blacklist</string>
+    <string name = "btn_delete_fd">Delete Friend</string>
+    <string name = "btn_end_chat">End chat</string>
+    <string name = "btn_change_pwd">Change pwd</string>
+    <string name = "btn_check_update">Check update</string>
+
+    <!--Login-->
+    <string name = "user_account">Account</string>
+    <string name = "user_pwd">Password</string>
+    <string name = "remember_pwd">Remember pwd</string>
+    <string name = "login">Login</string>
+    <string name = "forget_pwd">Forgot pwd</string>
+    <string name = "user_register">Account Registration</string>
+    <string name = "downloading_data">Downloading data</string>
+
+    <!--Register-->
+    <string name = "register">Register</string>
+    <string name = "password">password</string>
+    <string name = "image_code">Image code</string>
+    <string name = "verification_code">Verification code</string>
+    <string name = "send">Send</string>
+    <string name = "no_code">No verification code received</string>
+    <string name = "next_procedure">Next step</string>
+
+    <!--Message-->
+    <string name = "send_msg">Send a message</string>
+    <string name = "send_card">Send a business card</string>
+    <string name = "add_offical_account">Add public number</string>
+    <string name = "add_friend">Add friend</string>
+    <string name = "add_group">Add group</string>
+    <string name = "blocked_me">Blackened me</string>
+    <string name = "cancel_blocked">Cancel blackout</string>
+    <string name = "wait_validation">Waiting for validation</string>
+    <string name = "add">Add</string>
+    <string name = "chat">Chat</string>
+    <string name = "verifying">Verifying</string>
+  <string name="sender">Sender</string>
+  <string name="content">Content</string>
+  <string name="time">Time</string>
+  <string name="type">Type</string>
+  <string name="label">Label</string>
+  <string name="one_forward">OBO forward</string>
+  <string name="merge_forward">Merge forward</string>
+
+  <!--kWCMessageType-->
+  <string name="Image">Image</string>
+  <string name="Voice">Voice</string>
+  <string name="Location">Location</string>
+  <string name="Gif">Gif</string>
+  <string name="Video">Video</string>
+  <string name="Audio">Audio</string>
+  <string name="Card">Card</string>
+  <string name="File">File</string>
+  <string name="RedPacket">Red envelope</string>
+  <string name="TRANSFER">Transfers</string>
+  <string name="ImageTextSingle">Single image-text</string>
+  <string name="ImageTextMany">Many image-text</string>
+  <string name="Link">Link</string>
+  <string name="SDKLink">Link</string>
+  <string name="PokeMessage">Poke a poke</string>
+  <string name="History">Chat history</string>
+  <string name="AudioChatEnd">End of voice call</string>
+  <string name="VideoChatEnd">End of video call</string>
+  <string name="VideoChatCancel">Video call denied</string>
+  <string name="AudioChatCancel">Voice call denied</string>
+  <string name="RedBack">The red envelope has expired and the balance has been returned to you</string>
+  <string name="TYPE_SECURE_LOST_KEY">Request group communication key</string>
+  <string name="TYPE_SECURE_SEND_KEY">Send group communication key</string>
+
+    <!--Personal Information-->
+    <string name = "nickname">Nickname</string>
+    <string name = "remark_name">Remarks</string>
+    <string name = "sex">Gender</string>
+    <string name = "date_of_birth">Birthday</string>
+    <string name = "birthday">Birthday</string>
+    <string name = "live_place">Address</string>
+    <string name = "address">Address</string>
+    <string name = "account_IM">IM Num</string>
+    <string name = "QR_code">QR code</string>
+    <string name = "card">Business card</string>
+    <string name = "phone_number">Phone number</string>
+    <string name = "other">Other</string>
+
+    <!--Group information-->
+    <string name = "group">Group</string>
+    <string name = "create_group">Create a group</string>
+    <string name = "group_name">Group name</string>
+    <string name = "group_details">Group's details</string>
+    <string name = "group_notice">Group's notices</string>
+    <string name = "group_QR_code">Group's QR code</string>
+    <string name = "group_file">Group's file</string>
+    <string name = "group_descrip">Group descrip</string>
+    <string name = "group_member">Group members</string>
+    <string name = "public_group">Public group</string>
+    <string name = "private_group">Private group</string>
+    <string name = "private_group_tip">* Private groups do not support active group joining, and the message transmission method is end-to-end encrypted transmission method.</string>
+    <string name = "member">Member</string>
+    <string name = "group_card">Group card</string>
+  <string name="leader">Leader</string>
+  <string name="administrator">Administrator</string>
+  <string name="ordinary">Ordinary</string>
+  <string name="invisible">Invisible</string>
+  <string name="delete_member">Delete group member</string>
+
+  <!--文件操作与状态-->
+  <string name="have_downloaded">Have downloaded</string>
+  <string name="did_not_downloaded">Didn't downloaded</string>
+  <string name="downloading">Downloading</string>
+  <string name="upload_complete">Upload complete</string>
+  <string name="upload_failed">Upload failed</string>
+  <string name="uploading">Uploading</string>
+  <string name="download_complete">Download complete</string>
+  <string name="download_failed">Download failed</string>
+  <string name="open">Open</string>
+  <string name="download">Download</string>
+  <string name="copy">Copy</string>
+  <string name="forward">Forward</string>
+  <string name="edit">Edit</string>
+  <string name="delete">Delete</string>
+  <string name="collect">Collect</string>
+  <string name="save_as">Save as</string>
+  <string name="choose_file">Plese choose file</string>
+  <string name="choose_image">Plese choose Image</string>
+  <string name="choose_file_path">Plese choose file path</string>
+  <string name="delete_file_complete">File deletion complete</string>
+  <string name="image_file">Image File</string>
+  
+  <!--时间-->
+  <string name="just_now">Just now</string>
+  <string name="one_month_ago">one month ago</string>
+  <string name="two_weeks_ago">two weeks ago</string>
+  <string name="one_week_ago">one week ago</string>
+  <string name="one_sencond_ago">one sencond ago</string>
+  <string name="days_ago"> days ago</string>
+  <string name="hours_ago"> hours ago</string>
+  <string name="minutes_ago"> minutes ago</string>
+  <string name="seconds_ago"> seconds ago</string>
+  <string name="yesterday">Yesterday</string>
+  <string name="Monday">Monday</string>
+  <string name="Tuesday">Tuesday</string>
+  <string name="Wednesday">Wednesday</string>
+  <string name="Thursday">Thursday</string>
+  <string name="Friday">Friday</string>
+  <string name="Saturday">Saturday</string>
+  <string name="Sunday">Sunday</string>
+  <string name="one_hour">One hour</string>
+  <string name="one_day">One day</string>
+  <string name="one_week">One week</string>
+  <string name="one_month">One month</string>
+  <string name="one_season">One season</string>
+  <string name="one_year">One year</string>
+  <string name="permanent">Permanent</string>
+  
+  <!--窗体基础常用语-->
+  <string name="loading">Loading...</string>
+  <string name="detail">Detail</string>
+  <string name="app_name">ShiKu IM</string>
+  <string name="people"> people</string>
+  <string name="number_tiao">The number of %s</string>
+  <string name="search_result">The search results</string>
+  <string name="from">From</string>
+  <string name="I">I</string>
+  <string name="sure_to_clear">Make sure to clear the chat</string>
+  <string name="tips">Tips</string>
+
+    <!--AddTips-->
+    <string name = "issue_group_notice">Post a group announcement</string>
+
+    <!--FrmAddstate-->
+    <string name = "allow_to_add_my_way">Allow to add my way</string>
+    <string name = "by_QR_code">Two-dimensional code</string>
+    <string name = "by_card">Business card</string>
+    <string name = "by_group">Group</string>
+    <string name = "by_phone_number">Mobile number</string>
+    <string name = "by_nick_name">nickname</string>
+    <string name = "by_other">Other</string>
+
+    <!--FrmBatchSend-->
+    <string name = "batch_send_msg">Chat</string>
+    <string name = "batch_title">You will send a message to% s friends in this list</string>
+
+    <!--FrmBrowser-->
+    <string name = "browser_copy_url">Copy link address</string>
+    <string name = "browser_refresh">Refresh</string>
+    <string name = "browser_open_by_default">Open with default browser</string>
+    <string name = "browser_forward">Forward</string>
+    <string name = "browser_collect">Collect</string>
+
+    <!--FrmEditImage-->
+    <string name = "image_withdraw">Undo</string>
+    <string name = "image_tailor">Crop</string>
+    <string name = "image_text">text</string>
+    <string name = "image_mosaic">mosaic</string>
+    <string name = "image_pen">Brush</string>
+    <string name = "image_ok">Done</string>
+    <string name = "image_cancel">Cancel</string>
+    <string name = "image_save">Save</string>
+    <string name = "image_ellipse">Ellipse</string>
+    <string name = "image_magnify">Enlarge</string>
+    <string name = "image_shrink">Shrink</string>
+    <string name = "image_rectangle">box</string>
+    <string name = "image_max">Maximize</string>
+    <string name = "image_last">Last image</string>
+    <string name = "image_next">Next image</string>
+    <string name = "view_image">View Image</string>
+    
+    <!--Expression-->
+    <string name = "exps_default">Emoji</string>
+    <string name = "exps_gif">Gif</string>
+    <string name = "exps_custom">Custom</string>
+
+    <!--FrmForgetPwd-->
+    <string name = "verify_pwd">Verify pwd</string>
+
+  <!--FrmFriendQuery-->
+  <string name="query_friend">Query friends</string>
+
+  <!--FrmFriendSelect-->
+  <string name="frmFriendSelect_title">Choose friends</string>
+  <string name="frmFriendSelect_tips">Please check the contacts you want to add</string>
+
+  <!--FrmGroupFileList-->
+  <string name="frmGroupFileList_title">Group of files</string>
+  
+  <!--FrmGroupQuery-->
+  <string name="frmGroupQuery_title">Query Groups</string>
+
+  <!--FrmHistoryChat-->
+  <string name="frmHistoryChat_title">History messages</string>
+  <string name="search_history_msgs">Search history messages</string>
+  <string name="history_all">All</string>
+  <string name="history_file">File</string>
+  <string name="history_image">Image</string>
+  <string name="history_video">Video</string>
+  <string name="history_reply">Reply %s</string>
+
+  <!--FrmInviteToGroup-->
+  <string name="frmInviteToGroup_title">Invite details</string>
+  <string name="invite_reason">Invate reason</string>
+  <string name="apply_to_join_group"> apply to join group chat</string>
+  <string name="invite_fd_join_group"> wants to invite %s friends into a group chat</string>
+  <string name="wait_invite_result">Group chat invitation has been sent to group manager, please wait for group manager to confirm</string>
+
+  <!--FrmMagent-->
+  <string name="frmMagent_title">Group manage</string>
+  <string name="all_silence">All silence</string>
+  <string name="show_read_person">Show read persons</string>
+  <string name="group_invite_verification">Group invite verification</string>
+  <string name="group_reduce">group reduce inform</string>
+  <string name="can_private_chat">Member can private chat</string>
+  <string name="can_invite_fd">Can invite friend</string>
+  <string name="can_show_member">Can show members</string>
+  <string name="can_member_upload">Member can upload</string>
+  <string name="can_launch_meeting">Can launch meeting</string>
+  <string name="can_launch_courseware">Can launch courseware</string>
+  <string name="msg_transmit_way">Message way</string>
+  <string name="plaintext_transmit">Plaintext</string>
+  <string name="3DES_encrypt_transmit">3DES</string>
+  <string name="AES_encrypt_transmit">AES</string>
+  <string name="port_to_port">Port to port</string>
+  <string name="a_key_to_copy">Copy group</string>
+  <string name="group_member_table">Group member table</string>
+  <string name="view_details">View details</string>
+  <string name="transfer_group_owner">Transfer group owner</string>
+  <string name="appoint_admin">Appoint administration</string>
+  <string name="revoke_admin">Revoke administration</string>
+  <string name="silence">Silence</string>
+  <string name="do_not_silence">Don't silence</string>
+  <string name="silence_thirty_minutes">Silence thirty minutes</string>
+  <string name="silence_one_hour">Silence one hour</string>
+  <string name="silence_one_day">Silence one day</string>
+  <string name="silence_three_days">Silence three days</string>
+  <string name="from_the_group_remove">From the group remove</string>
+  <string name="appoint_invisible_man">Appoint invisible man</string>
+  <string name="revoke_invisible_man">Revoke invisible man</string>
+  <string name="nickname_in_group">Nickname in group</string>
+  
+  <!--FrmMassMsg-->
+  <string name="frmMassMsg_title">Mass message</string>
+  <string name="frmMassMsg_tips">You will send a message to %s friends</string>
+
+  <!--FrmMoreMember-->
+  <string name="frmMoreMember_title">Group members</string>
+
+  <!--FrmMyColleagueEidt-->
+  <string name="frmMyColleagueEidt_title">Edit</string>
+  <string name="frmMyColleagueEidt_name">Name</string>
+  <string name="frmMyColleagueEidt_tips">Not modified</string>
+  <string name="title_record_courseware">Record courseware</string>
+  <string name="title_modify_courseware">Modify courseware</string>
+  <string name="name_courseware_name">Courseware name</string>
+  <string name="title_reply">Reply</string>
+  <string name="name_reply_content">Reply content</string>
+  <string name="title_create_label">Create label</string>
+  <string name="title_modify_label">Modify label</string>
+  <string name="name_label_name">Label name</string>
+  <string name="title_create_company">Create company</string>
+  <string name="title_modify_company_name">Modify company</string>
+  <string name="name_company_name">Company name</string>
+  <string name="title_create_department">Create department</string>
+  <string name="title_modify_department">Modify department</string>
+  <string name="name_department_name">Department name</string>
+  <string name="title_add_sub-department">Add sub-department</string>
+  <string name="name_sub-department_name">Sub-department name</string>
+  <string name="title_modify_post">Modify post</string>
+  <string name="name_post_name">Post name</string>
+  <string name="title_modify_remark">Modify remark</string>
+  <string name="name_remark_name">Remark name</string>
+
+  <!--UserOffialAccountSet-->
+  <string name="msg_overdue_time">Message overtime</string>
+  <string name="both-way_clear_chat_history">Both-way clear history</string>
+  <string name="top_chat">Top chat</string>
+  <string name="no_disturbing">No disturbing</string>
+  <string name="read_delete">Read delete</string>
+
+  <!--FrmOfficialAccount-->
+  <string name="frmOfficialAccount_title">Query Official Account</string>
+
+  <!--FrmProgressBar-->
+  <string name="frmProgressBar_title">Mass message</string>
+  <string name="frmProgressBar_error">The following friend group message failed, the reason</string>
+  <string name="frmProgressBar_error1">Your friend(%s) data is abnormal, </string>
+  <string name="frmProgressBar_error2">Missing group(%s) key, </string>
+  <string name="frmProgressBar_error3">You are invisible in the group(%s), </string>
+  <string name="frmProgressBar_error4">You have been silenced in the group(%s), </string>
+  <string name="frmProgressBar_progress">Sending a message to %s, </string>
+  <string name="frmProgressBar_tips">Please wait for a moment.</string>
+  <string name="frmProgressBar_sending">Sending... </string>
+
+  <!--FrmReadedList-->
+  <string name="frmReadedList_title">Read list</string>
+  <string name="read_time">Read time</string>
+
+  <!--FrmReplay-->
+  <string name="frmReplay_title">Frequently said statements</string>
+
+  <!--FrmROOMVerify-->
+  <string name="frmROOMVerify_title">Join group verification</string>
+  <string name="frmROOMVerify_tips">Please describe the reason to group manager for inviting friends into the group</string>
+
+  <!--FrmSchedule-->
+  <string name="clear_all_record">Clear all chat history</string>
+  <string name="clearing_record">Clear your firend'(%s ) chat history</string>
+  <string name="clearing">Clearing...</string>
+  <string name="export_record">Export chat history</string>
+  <string name="exporting_record">%s messages have been exported</string>
+  <string name="exporting">In the export</string>
+  <string name="forward_msg">Forward message</string>
+  <string name="forwarding_msg">Send message to %s</string>
+  <string name="forwarding">Forwarding, please wait a moment</string>
+  <string name="sending_msg">Sending </string>
+
+  <!--FrmSedLocation-->
+  <string name="frmSedLocation_title">Map</string>
+  <string name="current_position">Current position</string>
+
+  <!--FrmServerSwit-->
+  <string name="frmServerSwit_title">Switching the server</string>
+  <string name="server_address">Server address</string>
+
+  <!--FrmSortSelect-->
+  <string name="frmSortSelect_title">Friend selector</string>
+  <string name="frmSortSelect_tips">Please check the contacts you want to add</string>
+  <string name="recent_news">Recent chat</string>
+  <string name="choose_fd">Friend</string>
+  <string name="fd_label">Friend's label</string>
+  <string name="my_colleague">My colleague</string>
+
+  <!--USEGroupSet-->
+  <string name="reset_key">Reset private key</string>
+  <string name="none_notice">None notice</string>
+  <string name="show_more_member">Show more group members</string>
+
+  <!--USESingleSet-->
+  <string name="add_remarks">Click add remarks</string>
+
+  <!--FrmTakePhoto-->
+  <string name="frmTakePhoto_title">Photograph</string>
+
+  <!--FrmTakePhoto-->
+  <string name="frmTakeVideo_title">Video</string>
+
+  <!--RequestChatkeyPanel-->
+  <string name="request_group_key">Requset group key</string>
+
+  <!--UnReadNumPanel-->
+  <string name="num_news"> new messages</string>
+
+  <!--ShowMsgPanel-->
+  <string name="tip_send_position">Send position</string>
+  <string name="tip_screen">Screen(Alt + Z )</string>
+  <string name="tip_send_file">Send file</string>
+  <string name="tip_record">Record</string>
+  <string name="tip_photograph">Photograph</string>
+  <string name="tip_video">Video</string>
+  <string name="tip_audio_chat">Audio chat</string>
+  <string name="tip_video_chat">Video chat</string>
+  
+  <!--UserSoundRecording-->
+  <string name="recording">Recording...</string>
+
+  <!--UseGroupInfo-->
+  <string name="view_member">View group members' details</string>
+  <string name="group_disbaned">Group disbaned</string>
+
+  <!--UserCollection-->
+  <string name="all_collection">          All collection</string>
+  <string name="text_collection">          Text</string>
+  <string name="image_collection">          Image</string>
+  <string name="video_collection">          Video</string>
+  <string name="my_courseware">          My courseware</string>
+  <string name="edit_courseware_name">Edit the name</string>
+  <string name="send_courseware">Send this</string>
+  <string name="delete_courseware">Detele this</string>
+
+  <!--USERemindMe-->
+  <string name="at_me">@ me</string>
+  <string name="at_everyone">@ everyone</string>
+
+  <!--UserLabel-->
+  <string name="userLabel_title">Friends label</string>
+  <string name="label_add_member">Add members</string>
+  <string name="label_edit_name">Edit name</string>
+  <string name="label_delete">Delete</string>
+  <string name="label_batch_delete">Batch delete</string>
+
+  <!--UserOfficialAccount-->
+  <string name="userOfficialAccount_title">Official account</string>
+
+  <!--USEUserVerifyPage-->
+  <string name="waitting_validation">Waitting for validation...</string>
+  <string name="await_validation">Awaiting</string>
+  <string name="passed_validation">I have verified with the friend</string>
+  <string name="added">Added</string>
+  <string name="reply_success">Successfully reply to %s</string>
+  <string name="validated">Validated</string>
+  <string name="replyed">Replyed</string>
+  <string name="unfollow_officical_account">Unfollow official account</string>
+  <string name="deleted_fd">The friend has been deleted</string>
+  <string name="deleted">Deleted</string>
+  <string name="blacklisted_fd">The friend has been blacklisted</string>
+  <string name="blacklisted">Blacklisted</string>
+  <string name="followed_official_account">Followed the official account</string>
+  <string name="followed">Followed</string>
+  <string name="added_fd">The friend has been added</string>
+  <string name="add_me_through_phone">add me through phone number</string>
+  <string name="removed_blacklist">The friend has been removed blacklist</string>
+  <string name="fd_passed_validation">The friend has been passed validation</string>
+  <string name="deleted_me">The friend has been deleted me</string>
+  <string name="be_deleted">Be deleted</string>
+  <string name="be_blacklisted">Be blacklisted</string>
+  <string name="fd_blacklisted_me">The friend has been blacklisted me</string>
+  <string name="request_add_me">Request to add me as a friend</string>
+  <string name="fd_removed_blacklist">The friend has removed me from the blacklist</string>
+
+  <!--BlockListPage-->
+  <string name="blockListPage_title">Blacklist</string>
+
+  <!--UserMyColleague-->
+  <string name="userMyColleague_title">My colleagues</string>
+  <string name="selected">Selected</string>
+  <string name="add_department">Add department</string>
+  <string name="modify_company_name">Change name</string>
+  <string name="quit_company">Quit company</string>
+  <string name="destory_company">Destory company</string>
+  <string name="creare_company_group">Create Group</string>
+  <string name="addd_subdivisions">Add subdivisions</string>
+  <string name="add_member">Add member</string>
+  <string name="modify_department_name">Change name</string>
+  <string name="delete_department">Destory department</string>
+  <string name="create_department_group">Create group</string>
+  <string name="create_department_group_chat">Create chat</string>
+  <string name="replace_department">Change parent</string>
+  <string name="modify_post">Change post</string>
+  <string name="delete_staff">Delete staff</string>
+
+  <!--FrmSet-->
+  <string name="frmSet_title">Setting</string>
+  <string name="account_set">Account set</string>
+  <string name="general_set">General set</string>
+  <string name="privacy_set">Privacy set</string>
+  <string name="change_pwd">Change pwd</string>
+  <string name="about_us">About Us</string>
+  <string name="edit_info">Edit info</string>
+  <string name="logout">Logout</string>
+  <string name="export_fd_history_xls">Export friends' history (xls)</string>
+  <string name="export_gp_history_xls">Export groups' history (xls)</string>
+  <string name="export_fd_history_txt">Export friends' history (txt)</string>
+  <string name="export_gp_history_txt">Export groups' history (txt)</string>
+  <string name="mass_msg">Mass message</string>
+  <string name="clear_cache">Clear cache</string>
+  <string name="clear_history">Clear chat history</string>
+  <string name="fd_validation">Friends validation</string>
+  <string name="let_know_typing">Let them know I'm typing</string>
+  <string name="can_devices_login">Support for multiple device logins</string>
+  <string name="can_search_me_by_phone">Allow to search me from phone</string>
+  <string name="can_search_me_by_name">Allow to search me from name</string>
+  <string name="roaming_time">Effective roaming time</string>
+  <string name="service_pattern">Service's pattern</string>
+  <string name="new_msg_popup">New message popup</string>
+  <string name="show_msg_status">Display message reading status</string>
+  <string name="old_pwd">Old pwd</string>
+  <string name="new_pwd">New pwd</string>
+  <string name="out-sync">Out-sync</string>
+    
+</property>

@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<style type="text/css">
+		#meet {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 900px;
+			height: 700px;
+			overflow: hidden;
+		}
+	</style><!-- 此处配置视频在整个页面的大小 -->
+</head>
+<body>
+	<div id="meet" style=""></div><!-- css与js要对这个div进行操作时就能通过id来找到这个div -->
+	<script src="external_api.js"></script>
+	<script>
+		var api;
+		var memMap = new Map();
+
+		function onLoaded() {
+			// 将网页头像回调到程序中解析userId
+			console.error("==================onLoaded======================");
+			if (jsObj) {
+				jsObj.OnLoaded();
+			}
+		}
+
+
+		function name(obj) {
+
+			var domain = obj.url;
+			var options = {
+				roomName: obj.roomname,
+				width: "100%",
+				height: "100%",
+				parentNode: document.querySelector('#meet'),
+				configOverwrite: {},
+				interfaceConfigOverwrite: {
+					// filmStripOnly: true,
+					jwt: "<jwt_token>",
+					noSsl: false
+				},
+				onload: onLoaded
+			}
+
+			api = new JitsiMeetExternalAPI(domain, options);
+			// 设置我的身份
+			api.executeCommand('displayName', obj.nickname);
+			api.executeCommand('avatarUrl', obj.header);
+
+			if (obj.type == 1) {
+				// 开启视频聊天
+				api.executeCommand('toggleVideo');
+			}
+
+			api.addEventListener("readyToClose",
+				function () {
+					api.executeCommand('hangup');
+					api.dispose();
+				});
+
+
+			// 监听已加入群成员列表
+			api.addEventListener("participantJoined",
+				function (jmem) {
+					setTimeout(onJoin, 300, jmem.id);
+
+				});
+
+			// 监听群成退出
+			api.addEventListener("participantLeft",
+				function (extemen) {
+
+					var avatarUrl = memMap.get(extemen.id, avatarUrl);
+					console.error("participantExiteJoined->avatarUrl:" + avatarUrl);
+					// 将网页头像回调到程序中解析userId
+					if (jsObj) {
+						jsObj.OnUserChanged("user_exit", avatarUrl, "xx");
+					}
+				});
+		}
+
+
+		function onJoin(jmemid) {
+			// 如果此时会议中已经有3个人了(不包括我)
+			// 那么此方法会回调三次
+
+			// 获取成员对象数组
+			var jMemArray = api._participants;
+
+			// 获取此次成员对象
+			var jMem = jMemArray[jmemid];
+
+			// 获取对象头像地址
+			var avatarUrl = jMem.avatarURL;
+
+			memMap.set(jmemid, avatarUrl);
+			console.error("participantJoined->avatarUrl:" + avatarUrl);
+			console.error("participantJoined->name:" + jMem.displayName);
+
+			// 将网页头像回调到程序中解析userId
+			if (jsObj) {
+				jsObj.OnUserChanged("user_join", avatarUrl, jMem.displayName);
+			}
+		}
+
+		//静音或者取消静音
+		function toggleAudio() {
+			if (api) {
+				api.executeCommand('toggleAudio');
+			}
+
+		}
+
+		//获取会议参与人数
+		function getNumber() {
+			if (api) {
+				return api.getParticipants();
+			}
+		}
+
+		// 挂断会议
+		function exitMeet() {
+			if (api) {
+				api.executeCommand('hangup');
+				api.dispose();
+			}
+		}
+
+		// 修改大小
+		function changeSize(obj) {
+			window.document.getElementById("meet").style.width = obj.width;
+			window.document.getElementById("meet").style.height = obj.height;
+		}
+
+	</script>
+</body>
+</html>
